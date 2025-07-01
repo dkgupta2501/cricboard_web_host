@@ -40790,7 +40790,7 @@ var $async$$0=A.R(function(a,b){if(a===1)return A.N(b,r)
 while(true)switch(s){case 0:m=q.a
 s=m.b.length!==0&&m.a.length!==0?2:3
 break
-case 2:p=A.ca("http://localhost:5001/api/teams/create")
+case 2:p=A.ca("https://cricboard.onrender.com/api/teams/create")
 o=t.N
 n=A.ar(["Content-Type","application/json"],o,o)
 s=4
@@ -40897,7 +40897,7 @@ A.aqz.prototype={
 $0(){var s=0,r=A.Q(t.H),q=this
 var $async$$0=A.R(function(a,b){if(a===1)return A.N(b,r)
 while(true)switch(s){case 0:s=2
-return A.T(A.aEC(A.ca("http://localhost:5001/api/players/removePlayerFromTeam?team_id="+A.j(J.aN(q.a,"id"))+"&player_id="+A.j(J.aN(q.b,"id")))),$async$$0)
+return A.T(A.aEC(A.ca("https://cricboard.onrender.com/api/players/removePlayerFromTeam?team_id="+A.j(J.aN(q.a,"id"))+"&player_id="+A.j(J.aN(q.b,"id")))),$async$$0)
 case 2:q.c.$0()
 return A.O(null,r)}})
 return A.P($async$$0,r)},
